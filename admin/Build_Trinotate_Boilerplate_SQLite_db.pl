@@ -20,7 +20,9 @@ my $UTILDIR = "$FindBin::RealBin/util";
 my $SPROT_DAT_URL = "ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz";
 my $EGGNOG_DAT_URL = "http://eggnogdb.embl.de/download/eggnog_4.5/data/NOG/NOG.annotations.tsv.gz";
 my $GENE_ONTOLOGY_DAT_URL = "http://purl.obolibrary.org/obo/go/go-basic.obo";
-my $PFAM_DAT_URL = "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz";
+# my $PFAM_DAT_URL = "ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz";
+# updated link - the old one doesnt work for me. 
+my $PFAM_DAT_URL = "http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz";
 #my $PFAM2GO_DAT_URL = "http://www.geneontology.org/external2go/pfam2go"; # ftp://ftp.geneontology.org/pub/go/external2go/pfam2go
 my $PFAM2GO_DAT_URL = "http://current.geneontology.org/ontology/external2go/pfam2go";
 
